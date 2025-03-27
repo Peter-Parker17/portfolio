@@ -51,7 +51,7 @@
                     nav__link--anchor
                     link__hover-effect
                     link__hover-effect--black
-                    "><i class="fas fa-adjust"></i>
+                    "><i class="fas fa-adjust">123</i>
                 </li>
             </ul>
         </nav>
@@ -73,7 +73,7 @@
         </header>
         <a href="#">
             <button class="mail__btn click" onclick="toggleModal()">
-                <i class="fas fa-envelope"></i>
+                <i class="fas fa-envelope">X</i>
             </button>
         </a>
         <a href="#projects" class="scroll">
@@ -118,7 +118,7 @@
                 </div>
             </div>
             <div class="modal__half modal__conatct">
-            <i class="fas fa-times modal__exit click" onclick="toggleModal()"></i>
+            <i class="fas fa-times modal__exit click" onclick="toggleModal()">1</i>
                 <h3 class="modal__title modal__title--contact">Let's have a chat!</h3>
                 <h4 class="modal__sub-title modal__sub-title--contact">I'm currently open to new opportunities.</h4>
                 <form id="contact__form" onsubmit="contact(event)">
@@ -167,10 +167,65 @@
                             <div class="project__wrapper--bg"></div>
                             <div class="project__description">
                                 <h3 class="project__description--title">
-                                    Car Sales Project
+                                    T React (clone)
                                 </h3>
                                 <h4 class="project__description--sub-title">
-                                    HTML, CSS, JavaScript, React
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 logo and wordmark.svg" height="80" width="80">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3 logo and wordmark.svg" height="80" width="80">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Javascript_badge.svg" alt="" height="80" width="80">
+                                </h4>
+                                <p class="project__description--para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit autem dolore magnam officia saepe eos quos vel quia iusto, quisquam cum fugiat nam asperiores qui nulla. Facilis delectus numquam tempora!
+                                </p>
+                                <div class="project__description--links">
+                                    <a href="https://github.com/Peter-Parker17" target="_blank" class="social__link click"><i class="fab fa-github"></i></a>
+                                    </a>
+                                    <a href="#" class="project__description--link">
+                                        <i class="fas fa-link">321</i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/blinker mockup.png" class="project__img" alt="">
+                            <div class="project__wrapper--bg"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">
+                                    Arthur's Movie Search
+                                </h3>
+                                <h4 class="project__description--sub-title">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 logo and wordmark.svg" height="80" width="80">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3 logo and wordmark.svg" height="80" width="80">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Javascript_badge.svg" alt="" height="80" width="80">
+                                </h4>
+                                <p class="project__description--para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit autem dolore magnam officia saepe eos quos vel quia iusto, quisquam cum fugiat nam asperiores qui nulla. Facilis delectus numquam tempora!
+                                </p>
+                                <div class="project__description--links">
+                                    <a href="https://github.com/Peter-Parker17" target="_blank" class="project__description--link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="project__description--link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/blinker mockup.png" class="project__img" alt="">
+                            <div class="project__wrapper--bg"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">
+                                    Library (clone)
+                                </h3>
+                                <h4 class="project__description--sub-title">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 logo and wordmark.svg" height="80" width="80">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3 logo and wordmark.svg" height="80" width="80">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Javascript_badge.svg" alt="" height="80" width="80">
                                 </h4>
                                 <p class="project__description--para">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit autem dolore magnam officia saepe eos quos vel quia iusto, quisquam cum fugiat nam asperiores qui nulla. Facilis delectus numquam tempora!
@@ -193,11 +248,16 @@
     <footer>
         <div class="container">
             <div class="row footer__row">
-
-            <figure>
-                <img id="personal-logo" src="./assets/AJ-Logo.jpg" alt="">
-                <!-- <img class="footer__logo--image" src="./assets/logo.svg" alt=""> -->
-            </figure>
+                <a href="#" class="footer__anchor">
+                    <figure class="footer__logo">
+                        <img id="personal-logo" src="./assets/AJ-Logo.jpg" alt="">
+                        <!-- <img class="footer__logo--image" src="./assets/logo.svg" alt=""> -->
+                    </figure>
+                    <span class="footer__logo--popper">
+                        Top
+                        <i class="fas fa-arrow-up"></i>
+                    </span>
+                </a>
             <div class="footer__social--list">
                 <a href="https://github.com/Peter-Parker17" target="_blank" class="
                 footer__social--link
