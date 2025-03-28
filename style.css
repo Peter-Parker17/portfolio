@@ -11,6 +11,15 @@ html {
     scroll-behavior: smooth;
 }
 
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#personal-logo {
+    filter: invert(1);
+}
+
 li {
     list-style-type: none;
 }
@@ -183,7 +192,7 @@ nav,
     background-color: #242424;
 }
 
-.dark-theme #personal-logo {
+.dark-theme {
     filter: none;
 }
 
@@ -219,26 +228,13 @@ nav,
     width: 100%;
     max-width: 1000px;
     padding: 0 30px;
-    /* animation: animate-header 800ms 1s backwards; */
 }
-
-/* @keyframes animate-header {
-    0% {
-        transform: scale(0);
-    }
-    80% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale(1);
-    }
-} */
 
 .header__para {
     font-size: 24px;
     line-height: 2;
     max-width: 450px;
-    animation: fade-up 850ms backwards;
+    animation: fade-up 850ms 400ms backwards;
 }
 
 @keyframes fade-up {
