@@ -1,6 +1,6 @@
-// template_zhmrg7j
-// service_3vy1m25
-// ifJCSpFv4jWDLuhkV
+// template_rbwe1fj
+// service_55hsi8n
+// _kj_4zhsL_CwfyyrE
 
 let isModalOpen = false;
 let contrastToggle = false;
@@ -29,27 +29,26 @@ function toggleContrast() {
 
 function contact(event) {
   event.preventDefault();
-  const loading = document.querySelector(".modal__overlay--loading");
-  const success = document.querySelector(".modal__overlay--success");
-  loading.classList += " modal__overlay--visible";
-
+  const loading = document.querySelector('.modal__overlay--loading')
+  const success = document.querySelector('.modal__overlay--success')
+  loading.classList += " modal__overlay--visible"
   emailjs
     .sendForm(
-      "service_3vy1m25",
-      "template_zhmrg7j",
+      "service_55hsi8n",
+      "template_rbwe1fj",
       event.target,
-      "user_ifJCSpFv4jWDLuhkV"
+      "_kj_4zhsL_CwfyyrE"
     )
     .then(() => {
-      loading.classList.remove(" modal__overlay--visible");
-      success.classList += " modal__overlay--visible";
-    })
-    .catch(() => {
-      loading.classList.remove(" modal__overlay--visible");
+      loading.classList.remove("modal__overlay--visible");
+    success.classList += " modal__overlay--visible";
+    }).catch(() => {
+      loading.classList.remove("modal__overlay--visible");
       alert(
-        "The email service is temporarily unavailable. Please contact me directly."
+        "The email service is temporarily unavailable. Please contact me directly at arthur@arthurjuco.net"
       );
-    });
+
+    })
 }
 
 function toggleModal() {
