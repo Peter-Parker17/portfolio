@@ -1,4 +1,4 @@
-// template_rbwe1fj
+// template_e9vrxrn
 // service_55hsi8n
 // _kj_4zhsL_CwfyyrE
 
@@ -35,7 +35,7 @@ function contact(event) {
   emailjs
     .sendForm(
       "service_55hsi8n",
-      "template_rbwe1fj",
+      "template_e9vrxrn",
       event.target,
       "_kj_4zhsL_CwfyyrE"
     )
