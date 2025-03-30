@@ -922,7 +922,7 @@ width = 80vw
 
 /* Small phones */
 
-@media (max-width: 430px) {
+@media (max-width: 480px) {
     .title {
         font-size: 52px;
     }
@@ -945,30 +945,39 @@ width = 80vw
         margin-bottom: 8px;
     }
 
-    /* .modal {
+    .modal {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         max-width: 100%;
-    } */
+    }
 
     .modal__half {
-        padding-left: 0;
+        padding-left: 15px;
         padding-right: 0;
         padding-top: 0;
         padding-bottom: 0;
+        width: 90%;
 
     }
 
     .modal__conatct {
-        padding-left: 0;
+        padding-left: 15px;
         padding-right: 0;
-        padding-top: 0;
+        padding-top: 20px;
         padding-bottom: 0;
+        width: 90%;
     }
 
     .modal__exit {
         display: flex;
         justify-content: flex-end;
     }
+
+    .modal__languages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
 }
