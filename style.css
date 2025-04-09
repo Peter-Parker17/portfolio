@@ -949,15 +949,17 @@ width = 80vw
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        max-width: 100%;
+        width: 100%;
     }
 
-    .modal__half {
+    .modal__half
+    .modal__about
+    .modal__conatct {
         padding-left: 15px;
         padding-right: 0;
         padding-top: 0;
         padding-bottom: 0;
-        width: 90%;
+        max-width: 100%;
 
     }
 
